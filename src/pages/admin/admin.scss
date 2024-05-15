@@ -1,0 +1,50 @@
+.admin {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    padding-right: 50px;
+    gap: 50px;
+}
+
+.outlet {
+    background:grey;
+    padding: 40px;
+    width: 400px;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family:Arial, Helvetica, sans-serif;
+    &__head {
+        background: black;
+        color: white;
+
+        tr {
+            padding: 15px 0;
+        }
+
+        th {
+            padding: 20px 10px;
+        }
+    }
+
+    &__img {
+        width: 50px;
+        height: 50px;
+
+        img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+    }
+
+
+    td {
+        padding: 10px 20px;
+        text-align: center;
+    }
+}
+
+.table__row:nth-child(even) {
+    background: rgba(134, 134, 141, 0.381);
+}
